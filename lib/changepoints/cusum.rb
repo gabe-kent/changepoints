@@ -26,9 +26,5 @@ module Changepoints
       end
       results
     end
-
-    def plot
-      GenericPlot.plot("CSUM norm", @csum, {}, [{:name => "threshold", :data => @threshold}])
-    end
   end
 end

@@ -26,9 +26,5 @@ module Changepoints
 
       weights_hash(up_inds.to_a | down_inds.to_a, @weight)
     end
-
-    def plot
-      GenericPlot.plot("Simplest detector", @data, {}, [], [{:name => "UP", :data => @up.to_a}, {:name => "DOWN", :data => @down.to_a}])
-    end
   end
 end

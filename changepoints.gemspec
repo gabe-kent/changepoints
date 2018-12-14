@@ -19,5 +19,4 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'narray', '~> 0'
   s.add_runtime_dependency 'rb-gsl', '~> 1'
-  s.add_runtime_dependency 'gnuplot', '~> 2'
 end

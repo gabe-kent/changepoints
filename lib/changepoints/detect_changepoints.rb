@@ -13,7 +13,7 @@ module Changepoints
       @threshold = threshold
     end
     
-    def run(opts={})
+    def run
       potential_changepoints = Array.new(@data.length, 0.0)
       @detectors.each do |detector|
         d = Changepoints.const_get(detector).new(@data)
@@ -21,7 +21,6 @@ module Changepoints
         results.each do |idx, weight|
           potential_changepoints[idx] += weight
         end
-        d.plot if opts[:plot]
       end
       scaled_confidences = scale_confidences(MathArray.new(potential_changepoints))
       @changepoints = squeeze_points(scaled_confidences, @threshold)

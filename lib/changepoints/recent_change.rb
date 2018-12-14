@@ -16,9 +16,5 @@ module Changepoints
       end
       results
     end
-
-    def plot
-      @d.plot
-    end
   end
 end

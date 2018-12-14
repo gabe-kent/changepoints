@@ -5,4 +5,3 @@ gemspec
 
 gem 'narray'
 gem 'rb-gsl'
-gem 'gnuplot'

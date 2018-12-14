@@ -61,9 +61,5 @@ module Changepoints
 
       c * ((nu_var * x_mu) + 1)**(-(nu+1)/2)
     end
-
-    def plot
-      GenericPlot.plot("Bayesian", @changepoint_sums[1..-1], {}, [{:name => "threshold", :data => @threshold}])
-    end
   end
 end

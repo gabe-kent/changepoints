@@ -1,6 +1,5 @@
 require "changepoints/utils"
 require "changepoints/narray_math_array"
-require "changepoints/gnuplot_generic_plot"
 require "changepoints/bayes_detector"
 require "changepoints/control_chart"
 require "changepoints/cusum"
