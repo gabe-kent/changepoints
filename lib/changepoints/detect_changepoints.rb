@@ -34,10 +34,6 @@ module Changepoints
       @results
     end
     
-    def plot_changepoints
-      GenericPlot.plot("Timeseries", @data, @results)
-    end
-    
     def add(class_name)
       @detectors << class_name
     end
