@@ -1,5 +1,4 @@
 require 'narray'
-require 'gsl'
 
 module Changepoints
   class MathArray

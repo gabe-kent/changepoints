@@ -4,4 +4,3 @@ source "http://rubygems.org"
 gemspec
 
 gem 'narray'
-gem 'rb-gsl'

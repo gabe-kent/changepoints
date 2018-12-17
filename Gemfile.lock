@@ -3,15 +3,11 @@ PATH
   specs:
     changepoints (0.3.0)
       narray (~> 0)
-      rb-gsl (~> 1)
 
 GEM
   remote: http://rubygems.org/
   specs:
-    gsl (2.1.0.3)
     narray (0.6.1.2)
-    rb-gsl (1.16.0.6)
-      gsl
 
 PLATFORMS
   ruby
@@ -19,7 +15,6 @@ PLATFORMS
 DEPENDENCIES
   changepoints!
   narray
-  rb-gsl
 
 BUNDLED WITH
    1.16.4
